@@ -75,8 +75,11 @@
                      </ul>
                   </div>
 
-                  <p class="text-center d-block"><a href="https://buy.aura.com/save-50"><strong>Get protected for as low
-                           as $9/mo</strong></a></p>
+                  <p class="text-center d-block">
+                     <a id="auraLink">
+                        <strong>Get protected for as low as $9/mo</strong>
+                     </a>
+                  </p>
                </div>
 
                <!-- Column 3 (Swap to Column 2 on mobile) -->
@@ -85,9 +88,9 @@
                      <a href="#">CALL NOW</a>
                   </div> -->
                   <div class="paln-btn">
-                     <a href="https://buy.aura.com/save-50" class="plan-btn">BROWSE PLANS</a>
+                     <a id="aura-browse-plans" class="plan-btn">BROWSE PLANS</a>
                   </div>
-                  <a href="https://buy.aura.com/save-50" class="office-site">Aura Official Site</a>
+                  <a id="aura-official-site" class="office-site">Aura Official Site</a>
                </div>
             </div>
          </div>
@@ -130,10 +133,9 @@
                      <a href="#">CALL NOW</a>
                   </div> -->
                   <div class="paln-btn">
-                     <a href="https://protect.identityiq.com/idp/idprotect/review/" class="plan-btn">BROWSE PLANS </a>
+                     <a id="identityIq-Plans" class="plan-btn">BROWSE PLANS </a>
                   </div>
-                  <a href="https://protect.identityiq.com/idp/idprotect/review/" target="_blank"
-                     class="office-site">IdentityIQ Official Site</a>
+                  <a id="identityIq-Site" target="_blank" class="office-site">IdentityIQ Official Site</a>
                </div>
             </div>
          </div>
@@ -176,11 +178,9 @@
                      <a href="#">CALL NOW</a>
                   </div> -->
                   <div class="paln-btn">
-                     <a href="https://lifelock.norton.com/products/cyber-safety-plans#planschart"
-                        class="plan-btn">BROWSE PLANS </a>
+                     <a id="lifeLocks-Plans" target="_blank" class="plan-btn">BROWSE PLANS </a>
                   </div>
-                  <a href="https://lifelock.norton.com/products/cyber-safety-plans#planschart" target="_blank"
-                     class="office-site">Lifelock Official Site</a>
+                  <a id="lifeLocks-site" target="_blank" class="office-site">Lifelock Official Site</a>
                </div>
             </div>
          </div>
@@ -223,9 +223,9 @@
                      <a href="#">CALL NOW</a>
                   </div> -->
                   <div class="paln-btn">
-                     <a href="https://buy.identityguard.com/ultraoffer-v" class="plan-btn">BROWSE PLANS </a>
+                     <a id="IdentityGuard-Plans" target="_blank" class="plan-btn">BROWSE PLANS </a>
                   </div>
-                  <a href="https://buy.identityguard.com/ultraoffer-v" target="_blank" class="office-site">Identity
+                  <a id="IdentityGuard-Site" target="_blank" class="office-site">Identity
                      Guard Official
                      Site</a>
                </div>
@@ -263,8 +263,10 @@
                      </ul>
                   </div>
 
-                  <p class="text-center d-block"><a href="https://buy.aura.com/save-50"><strong>Get protected for as low
-                           as $9/mo</strong></a></p>
+                  <p class="text-center d-block">
+                     <a id="auraLink2"><strong> protected for as low as $9/mo</strong>
+                     </a>
+                  </p>
                </div>
 
                <!-- Column 3 (Swap to Column 2 on mobile) -->
@@ -273,9 +275,9 @@
                      <a href="#">CALL NOW</a>
                   </div> -->
                   <div class="paln-btn">
-                     <a href="https://buy.aura.com/save-50" class="plan-btn">BROWSE PLANS</a>
+                     <a id="aura-browse-plans2" class="plan-btn">BROWSE PLANS</a>
                   </div>
-                  <a href="https://buy.aura.com/save-50" class="office-site">Aura Official Site</a>
+                  <a id="aura-official-site2" class="office-site">Aura Official Site</a>
                </div>
             </div>
          </div>
@@ -322,9 +324,7 @@
             <div class="row flex-column-reverse flex-lg-row">
                <div class="col-md-9">
                   <div class="lession-content">
-                     <a href="https://buy.aura.com/save-50">
-                        <img src="images/aura-web.jpg" class="img-fluid">
-                     </a>
+                     <a id="auraPoster"><img src="images/aura-web.jpg" class="img-fluid"></a>
                      <ul>
                         <li>Credit score monitoring and fraud protection</li>
                         <li>Fastest fraud alerts on Earth</li>
@@ -357,7 +357,7 @@
             <div class="row flex-column-reverse flex-lg-row">
                <div class="col-md-9">
                   <div class="lession-content">
-                     <a href="https://protect.identityiq.com/idp/idprotect/review/">
+                     <a id="identityIQ-Poster">
                         <img src="images/identityiq-web.jpg" class="img-fluid">
                      </a>
 
@@ -452,8 +452,12 @@
          </div>
       </div>
    </footer>
+
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    <span id="lastUpdated"></span>
+
+   <!-- Import Scripts -->
+   <script src="js/index.js"></script>
    <script>
       document.addEventListener("DOMContentLoaded", function () {
          let date = new Date();
